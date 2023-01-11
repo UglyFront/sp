@@ -6,124 +6,32 @@ app = Flask(__name__)
 cors = CORS(app)
 
 sneakers = [
-    {
-        "id": 1,
-        "brand": "Nike",
-        "name": "Air Jordan",
-        "price": 5000,
-        "color": "red",
-        "group": 1,
-        "size": 37,
-        "groupSize": 1,
-        "count": 50,
-        "description": "Материал: Верх - текстиль, резина; Подкладка - текстиль; Низ - резина",
-        "sex": 0
-    },
-    {
-        "id": 2,
-        "brand": "Nike",
-        "name": "Air Jordan",
-        "price": 5000,
-        "color": "blue",
-        "group": 1,
-        "size": 38,
-        "groupSize": 1,
-        "count": 10,
-        "description": "Материал: Верх - текстиль, резина; Подкладка - текстиль; Низ - резина",
-        "sex": 0
-    }
+
 ]
 
 users = [
-    {
-        "login": "gfg",
-        "password": "qwerty",
-        "id": 1,
-        "name": "Рома",
-        "phone": "88005553535",
-        "email": "example@mail.ru",
-        "adress": "Пирогова 5/1",
-        "money": 6000,
-        "sex": 0,
-        "image": "https://telegrator.ru/wp-content/uploads/2021/05/chat_avatar-136.jpg"
-    }
+
 ]
 
 cart = [
-    {
-        "id": 1,
-        "ownerId":1,
-        "items": [{
-            "sneakersId": 1
-        }
 
-        ],
-
-    }
 ]
 
 who = [
-    {
-        "name": "Рома",
-        "phone": "88005553535",
-        "question": "Забыл пароль от аккаунта. ПАМАГИТИ!!!"
-    }
+
 
 
 ]
 
 messages = [
-    # {
-    #     "text": "Привет",
-    #     "date": "12/14/2022",
-    #     "sender": {
-    #         "name": "Рома",
-    #         "id": 1,
-    #         "image": "",
-    #     },
-    #     "room": 1
 
-    # },
-    # {
-    #     "text": "Привет",
-    #     "date": "12/14/2022",
-    #     "sender": {
-    #         "name": "Рома",
-    #         "id": 1,
-    #         "image": "",
-    #     },
-    #     "room": 2
-
-    # },
-    # {
-    #     "text": "Здарова, Артурка!",
-    #     "date": "12/14/2022",
-    #     "sender": {
-    #         "name": "Рома",
-    #         "id": 1,
-    #         "image": "",
-    #     },
-    #     "room": 1
-
-    # }
 
 
 
 ]
 
 rooms = [
-    { 
-        "id": 1,
-        "title": "Котики всем!!!",
-        "private": 0
-
-    },
-    { 
-        "id": 2,
-        "title": "Собачки всем!!!(без корейцев)",
-        "private": 1,
-        "invited_id":[1, 2]
-    }  
+   
 
 ]
 
