@@ -75,7 +75,7 @@ def getMessagesForRoom(room, user_id):
                     msgRoom.append(msg)
             return msgRoom
         else:
-            return "Доступ запрещен!!! Чат только для Артура и его коллег по рынку"
+            return "non dostup"
         
             
             
@@ -98,7 +98,7 @@ def logIn():
     if find:
         return user
     else:
-        return "ОШИБКA!!"
+        return "err"
 
 @app.post("/reg")
 def registr():
@@ -108,7 +108,7 @@ def registr():
         if i["login"] == user_data["login"] or i["email"] == user_data["email"]:
             find = True
     if find:
-        return "Данные не уникальны!"
+        return "not uniq"
     else:
         users.append(user_data)
         return user_data
